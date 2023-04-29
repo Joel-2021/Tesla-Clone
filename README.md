@@ -1,4 +1,4 @@
 # Tesla Clone
 
-##Tesla Clone built with react and styled with tailwind css.
+## Tesla Clone built with react and styled with tailwind css.
 
