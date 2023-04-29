@@ -1,0 +1,26 @@
+.App{
+    scroll-snap-type :y mandatory;
+    overflow-y:scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    scroll-behavior: smooth;
+}
+.App::-webkit-scrollbar{
+    display: none;
+}
+.section{
+    scroll-snap-align:center;
+
+}
+.content{
+    transition: opacity 0.5s;
+}
+.fade-in {
+    opacity: 1;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .fade-out {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
